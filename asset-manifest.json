@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/maheezthariq.github.io/static/css/main.48559ae6.css",
+    "main.js": "/maheezthariq.github.io/static/js/main.44a63fe9.js",
+    "static/media/bannerImg.png": "/maheezthariq.github.io/static/media/bannerImg.7ca1457679de0010a485.png",
+    "static/media/projectFour.png": "/maheezthariq.github.io/static/media/projectFour.33cdddd1896419447226.png",
+    "static/media/projectSix.png": "/maheezthariq.github.io/static/media/projectSix.9316f9935e652869f5c2.png",
+    "static/media/projectTwo.png": "/maheezthariq.github.io/static/media/projectTwo.45074659b9fbea0ca228.png",
+    "static/media/contactImg.png": "/maheezthariq.github.io/static/media/contactImg.c0c32b234ad260bf810c.png",
+    "static/media/projectThree.png": "/maheezthariq.github.io/static/media/projectThree.22576d66b26d121f299d.png",
+    "static/media/projectFive.png": "/maheezthariq.github.io/static/media/projectFive.944658b5f0d273fe8e1e.png",
+    "static/media/projectOne.png": "/maheezthariq.github.io/static/media/projectOne.af7af54698e10edc390b.png",
+    "static/media/testimonialOne.jpg": "/maheezthariq.github.io/static/media/testimonialOne.a70003b7c3a357895d2c.jpg",
+    "index.html": "/maheezthariq.github.io/index.html",
+    "main.48559ae6.css.map": "/maheezthariq.github.io/static/css/main.48559ae6.css.map",
+    "main.44a63fe9.js.map": "/maheezthariq.github.io/static/js/main.44a63fe9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48559ae6.css",
+    "static/js/main.44a63fe9.js"
+  ]
+}
