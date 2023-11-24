@@ -8,14 +8,14 @@ import { MdAnalytics } from "react-icons/md";
 export const featuresData = [
   {
     id: 1,
-    title: "UI/UX Designer",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
-  },
-  {
-    id: 2,
     icon: <AiFillAppstore />,
     title: "App Development",
     des: "Wrorking on a project to develop a mobile app for a local business.",
+  },
+  {
+    id: 2,
+    title: "UI/UX Designer",
+    des: "Want to gain real-life experience of managing a complete software project cycle.",
   },
   {
     id: 3,

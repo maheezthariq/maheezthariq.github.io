@@ -24,9 +24,9 @@ const Card = ({item:{title,des,icon}}) => {
               {title}
             </h2>
             <p className="base">{des}</p>
-            <span className="text-2xl text-designColor">
+            <button className="text-2xl text-designColor bg-transparent border-none p-0 cursor-pointer">
               <HiArrowRight />
-            </span>
+            </button>
           </div>
         </div>
       </div>
