@@ -14,8 +14,10 @@ export const featuresData = [
   },
   {
     id: 2,
-    title: "UI/UX Designer",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    icon: <CgWebsite />,
+    title: "Web Development",
+    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+
   },
   {
     id: 3,
@@ -25,9 +27,8 @@ export const featuresData = [
   },
   {
     id: 4,
-    icon: <CgWebsite />,
-    title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+    title: "UI/UX Designer",
+    des: "Want to gain real-life experience of managing a complete software project cycle.",
   },
   {
     id: 5,
