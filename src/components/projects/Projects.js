@@ -32,8 +32,8 @@ const Projects = () => {
           websiteLink={null} // Set websiteLink to null to hide the website icon
         />
         <ProjectsCard
-          title="Portfolio Website"
-          des=" This is a website for posting secrets anonymously with an authentication system ."
+          title="ITUM DB Management System"
+          des="Designed and implemented a Student Management System. This system efficiently recorded and managed student data, including their academic results. This website in developing a functional and user-friendly solution for academic record-keeping."
           src={projectThree}
           githubLink=""
           websiteLink=""
