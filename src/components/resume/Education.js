@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import ResumeCard from './ResumeCard';
 import ResumeCardW from './ResumeCardW';
+import ResumeCardR from './ResumeCardR';  
 
 const Education = () => {
   return (
@@ -21,9 +22,9 @@ const Education = () => {
             title="Information Technology"
             subTitle="Institute of Technology, University of Moratuwa (2020 - Present)"
             result="3.2 CGPA"
-            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
+            des="Studying IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
           />
-          <ResumeCard
+          <ResumeCardR
             title="Higher Secondary Education"
             subTitle="BT/BC/ KCC (2016 - 2018)"
             // result="88.15%"
@@ -44,24 +45,26 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2020 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[650px] border-l-black border-opacity-30 flex flex-col gap-6">
           <ResumeCardW
             title="Software Engineering"
             subTitle="Indonesian Cyber Education Institue"
             result="Online"
-            // des="Learnt MERN stack and made various project using the skills in this course. Check out my Github for project info !"
           />
-          <ResumeCard
-            title=" Machine Learning in Python"
-            subTitle="Acmegrade (Partner Mood Indigo IIT Bombay) - (10/06/2022 - 30/08/2022) [2-3 months]"
+          <ResumeCardW
+            title="Agile Project Management in ICT"
+            subTitle="University of Moratuwa"
             result="Online"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
           />
-          <ResumeCard
-            title="Neo4j"
-            subTitle="GRAPHACADEMY - (Issued on 4th November 2022)"
+          <ResumeCardW
+            title="Introduction to IOT"
+            subTitle="Cisco"
             result="Online"
-            des=" Learned basics of Neo4j - a database management system "
+          />
+          <ResumeCardW
+            title="AWS Cloud Technical Essentials"
+            subTitle="AWS"
+            result="Online"
           />
         </div>
       </div>
