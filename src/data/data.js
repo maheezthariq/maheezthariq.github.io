@@ -2,7 +2,8 @@ import { AiFillAppstore } from "react-icons/ai";
 import {  FaBrain} from "react-icons/fa";
 import { SiProgress} from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
-import { MdAnalytics } from "react-icons/md";
+import { FaUikit } from "react-icons/fa";
+import { MdDesignServices } from "react-icons/md";
 
 // Features Data
 export const featuresData = [
@@ -26,12 +27,13 @@ export const featuresData = [
   },
   {
     id: 4,
+    icon: <FaUikit />,
     title: "UI/UX Designer",
     des: "Passionate about both designing and marketing, which has equipped me with substantial knowledge in this field",
   },
   {
     id: 5,
-    icon: <MdAnalytics />,
+    icon: <MdDesignServices />,
     title: "Graphic Designer",
     des: "Excel in using Adobe Creative Suite, particularly in Photoshop and Illustrator. Can Review my portfolio on Behance",
   },

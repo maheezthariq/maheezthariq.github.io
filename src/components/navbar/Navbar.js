@@ -41,7 +41,7 @@ const Navbar = () => {
           <FiMenu />
         </span>
         {showMenu && (
-            <div className={`w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 ${showMenu ? 'bg-opacity-90' : 'bg-opacity-0'}`} style={{ transition: 'opacity 0.6s ease-in-out' }}>
+            <div className={`w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 ${showMenu ? 'bg-opacity-95' : 'bg-opacity-0'}`} style={{ transition: 'opacity 0.6s ease-in-out' }}>
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-22" src={logo} alt="logo" />
