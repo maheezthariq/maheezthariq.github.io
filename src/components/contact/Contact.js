@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
+import axios from 'axios';
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -44,7 +45,24 @@ const Contact = () => {
       setSubject("");
       setMessage("");
     }
+    axios.post('http://localhost:5000/send', {
+    subject: subject,
+    email: email,
+    text: message
+  })
+  .then(response => {
+    if (response.data.status === 'success') {
+      setSuccessMsg('Your message has been sent successfully!');
+    } else {
+      setErrMsg('An error occurred while sending your message.');
+    }
+  })
+  .catch(error => {
+    setErrMsg('An error occurred while sending your message.');
+  });
   };
+
+
   return (
     <section
       id="contact"

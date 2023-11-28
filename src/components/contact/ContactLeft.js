@@ -25,9 +25,6 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">maheezmtm@gmail.com</span>
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
-          Github: <span className="text-lightText">Maheezthariq</span>
-        </p>
       </div>
       <div className="flex flex-col gap-0">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
