@@ -26,7 +26,7 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Hello Doc"
-          des=" Collaborating with the Electrical Department to address difficulties in obtaining medical documentation for students. Developed a Medical Document Management System that streamlined communication between medical staffs and HODs."
+          des=" Collaborating with the Electrical Department in Univerity to address difficulties in obtaining medical documentation for students. Developed a Medical Document Management System that streamlined communication between medical staffs and HODs."
           src={projectTwo}
           githubLink=""
           websiteLink={null} // Set websiteLink to null to hide the website icon
