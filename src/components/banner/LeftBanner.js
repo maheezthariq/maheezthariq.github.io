@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
-        "Currently pursuing as a second-year Information Technology undergraduate at the Institute of Technology, University of Moratuwa. With a strong IT background, mathematical prowess, and effective public speaking skills, I have actively engaged in zonal and provincial-level competitions in both disciplines. My leadership capabilities flourished as I led teams in school and initiated "Why Not," a successful digital marketing agency serving global clientele. As a tutor and marketing manager at “SchoolX”, an online learning platform, I contributed to becoming a finalist at Disrupt Asia 2019. Within the university, I excelled as a finalist in AIESEC's Best Performing Team Member category and served as a content creator, designer, Publicity Committee at IEEE in the term of 2023/2024 and volunteering now as the Chief Editor of Majlis Ul Islam. My multi-faceted experiences reflect my adaptability, creativity, and unwavering commitment to excellence."
+        "An enthusiastic and self motivated person who passionate about exploring the latest technologies. As an IT undergraduate student love to working collaboratively with others to deliver quality software solutions and play numerous lead roles too. A Friendly communicable team player who can adapt to a new environment quickly and love to keep up-to-date with industry trends and developments, always looking for new challenges to help me grow both personally and professionally."
         </p>
       </div>
      {/* Media */}
