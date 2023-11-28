@@ -10,54 +10,50 @@ const Experience = () => {
       className="py-12 font-titleFont flex flex-col gap-20 md:flex-row"
     >
       <div>
+        <div className="w-full lgl:w-[650px]">
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2023 - 20XX</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2019 - Present</p>
+          <h2 className="text-4xl font-bold">Professional Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[1000px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google - (20XX - Present) [Goal in my bucketlist]"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Designer and Sales Manager"
+            subTitle="SchoolX Lanka PVT Ltd - (Dec 2018 - Jan 2020)"
+            result="Colombo, Sri Lanka"
+            des="SchoolX - Online learning platform startup like BYJUS, I held a dual role, joined as a video editor and got promoted as a marketing manager within a couple of months. As a video editor I edited promotional videos and as well as content  videos. After that as a marketing manager, I devised and executed impactful campaigns, expanding SchoolX's reach and influence. Our recognition as finalists at Disrupt Asia 2019 underscores our collective commitment to revolutionizing education."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (20XX - 20XX) [Goal in my bucketlist]"
-            result="USA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
+            title="Founder"
+            subTitle="WhyNot - (March 2019 - Present)"
+            result="Freelance"
+            des="As the founder of Why Not, a startup digital marketing agency, I orchestrated successful campaigns for both local and international clients, leveraging my strategic insights and creative prowess. Simultaneously, my passion for design led me to freelance as a designer, crafting visually captivating content that resonates with audiences. "
           />
-          <ResumeCard
-            title="Data Analyst Intern"
-            subTitle="Xemi - (5/6/2023 - 5/9/2023)  [3 months]"
-            result="Mumbai, Maharashtra"
-            des="Writing Web Scrapping codes to extract required data for website’s database and training ML models. Mode of work: Hybrid."
-          />
+        </div>
         </div>
       </div>
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">20XX - 20XX</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - Present</p>
+          <h2 className="text-4xl font-bold">Non Academic Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="ML Instructor"
-            subTitle="ABC Platform (20XX - 20XX)"
-            result="UK"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Publicity Committee"
+            subTitle="IEEE- Student Branch of University of Moratuwa"
+            result="IEEE"
+            des="Elected as Publicity Committee of IEEE Student Branch of University of Moratuwa in the Term of 23/24"
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="ABC King's College (20XX - 20XX)"
-            result="CANADA"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Editor in Chief"
+            subTitle="Majlis Ul Islam - University of Moratuwa"
+            result="Majlis Ul Islam"
+            des="Joined as a Designer and got promoted as Editor in Chief in the term of 22/23"
           />
           <ResumeCard
-            title="App Developer"
-            subTitle="ABC Company (20XX - 20XX)"
-            result="India"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="iGT Member"
+            subTitle="AIESEC in University of Moratuwa"
+            result="AIESEC CS"
+            des="Elected as one of the nominees of Aiesec CS Eminence 22 in the category of 'Best Performing iGT Member’"
           />
         </div>
       </div>

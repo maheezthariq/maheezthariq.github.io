@@ -13,6 +13,7 @@ const Education = () => {
     >
       {/* part one */}
       <div>
+      <div className="w-full lgl:w-[650px]">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2010 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
@@ -26,7 +27,7 @@ const Education = () => {
           />
           <ResumeCardR
             title="Higher Secondary Education"
-            subTitle="BT/BC/ KCC (2016 - 2018)"
+            subTitle="BT/BC/ KCC (2016-2018)"
             // result="88.15%"
             des="I pursued my Advanced-Level education with a focus on Physics, Chemistry, and Combined Mathematics as my primary subjects."
           />
@@ -36,6 +37,7 @@ const Education = () => {
             result="8A 1B"
             des="Got 8A and 1B in Ordinary Level Examination. Subjects: English, Maths, Science, ICT, Tamil, Islam, History, Tamil.lit, Commerce."
           />
+        </div>
         </div>
       </div>
       {/* part Two */}
