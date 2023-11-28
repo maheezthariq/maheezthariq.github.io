@@ -38,7 +38,7 @@ const Projects = () => {
           githubLink=""
           websiteLink=""
         />
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Student Management System"
           des=" To create a website which plays Cartoon/Show songs' audio when user clicks on a particular cartoon image. Using HTML,CSS,JS,Bootstrap to bundle the songs we loved during our childhood!"
           src={projectFour}
@@ -58,7 +58,7 @@ const Projects = () => {
           src={projectSix}
           githubLink=""
           websiteLink=""
-        />
+        /> */}
       </div>
     </section>
   );
