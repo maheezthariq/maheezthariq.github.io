@@ -20,8 +20,8 @@ const Projects = () => {
           title="Eco Trash"
           des=" Leading a team of five members in developing a comprehensive waste management solution incorporating IoT-enabled smart bins. The integration of a user-friendly mobile app allowing users to report and resell their surplus items."
           src={projectOne}
-          githubLink="https://github.com/maheezthariq/EcoTrash"
-          websiteLink=""
+          githubLink=""
+          websiteLink="https://github.com/maheezthariq/EcoTrash"
 
         />
         <ProjectsCard
@@ -29,7 +29,7 @@ const Projects = () => {
           des=" Collaborating with the Electrical Department in Univerity to address difficulties in obtaining medical documentation for students. Developed a Medical Document Management System that streamlined communication between medical staffs and HODs."
           src={projectTwo}
           githubLink=""
-          websiteLink={null} // Set websiteLink to null to hide the website icon
+          websiteLink="" // Set websiteLink to null to hide the website icon
         />
         <ProjectsCard
           title="ITUM DB Management System"
