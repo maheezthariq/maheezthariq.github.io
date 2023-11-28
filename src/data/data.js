@@ -10,36 +10,35 @@ export const featuresData = [
     id: 1,
     icon: <AiFillAppstore />,
     title: "App Development",
-    des: "Wrorking on a project to develop a mobile app for a local business.",
+    des: "Currently developing a mobile application aimed to offering solution for waste management systems",
   },
   {
     id: 2,
     icon: <CgWebsite />,
     title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
-
+    des: "Expertise in React-based web development and have successfully contributed to multiple projects in this domain.",
   },
   {
     id: 3,
     icon: <SiProgress />,
     title: "Digital Marketing",
-    des: "Will learn this soon in near future !",
+    des: "Hands-on experience in this field for over four years worked with many brands, specializing in social media marketing",
   },
   {
     id: 4,
     title: "UI/UX Designer",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    des: "Passionate about both designing and marketing, which has equipped me with substantial knowledge in this field",
   },
   {
     id: 5,
     icon: <MdAnalytics />,
     title: "Graphic Designer",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
+    des: "Excel in using Adobe Creative Suite, particularly in Photoshop and Illustrator. Can Review my portfolio on Behance",
   },
   {
     id: 6,
     icon: <FaBrain />,
     title: "Content Creator",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
+    des: "Through videography and video editing, expressing my creativity. Check my Instagram Reels side to witness my work.",
   },
 ];
