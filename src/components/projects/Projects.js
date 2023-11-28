@@ -18,18 +18,18 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Eco Trash"
-          des=" The Waste Management Project is an innovative solution designed to bridge the gap between the public and waste collectors, fostering a collaborative and environmentally conscious community."
+          des=" Leading a team of five members in developing a comprehensive waste management solution incorporating IoT-enabled smart bins. The integration of a user-friendly mobile app allowing users to report and resell their surplus items."
           src={projectOne}
           githubLink="https://github.com/maheezthariq/EcoTrash"
           websiteLink=""
 
         />
         <ProjectsCard
-          title="Student Medical Record System"
-          des=" This is a blog website have a EJS, Node & Express as backend and Mongoose & MongoDB database."
+          title="Hello Doc"
+          des=" Collaborating with the Electrical Department to address difficulties in obtaining medical documentation for students. Developed a Medical Document Management System that streamlined communication between medical staffs and HODs."
           src={projectTwo}
           githubLink=""
-          websiteLink=""
+          websiteLink={null} // Set websiteLink to null to hide the website icon
         />
         <ProjectsCard
           title="Portfolio Website"
