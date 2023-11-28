@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedinIn, FaReact,FaNodeJs, FaInstagram, FaBehance } from "react-icons/fa";
-import { SiMongodb,SiExpress,SiGithub,SiGmail, SiFlutter, SiCss3, SiHtml5, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiAdobepremierepro,SiJavascript, SiAdobexd } from "react-icons/si";
+import { SiMongodb,SiExpress,SiGithub,SiGmail, SiFlutter, SiCss3, SiHtml5, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiAdobepremierepro,SiJavascript, SiAdobexd, SiAdobeaftereffects } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -86,6 +86,9 @@ const Media = () => {
             </span>
             <span className="bannerIcon">
               <SiAdobephotoshop />
+            </span>
+            <span className='bannerIcon'>
+              <SiAdobeaftereffects/>
             </span>
           </div>
           </div>
