@@ -15,18 +15,18 @@ const Experience = () => {
           <p className="text-sm text-designColor tracking-[4px]">2019 - Present</p>
           <h2 className="text-4xl font-bold">Professional Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[1250px] border-l-black border-opacity-30 flex flex-col gap-20">
           <ResumeCard
             title="Designer & Sales Manager"
             subTitle="SchoolX Lanka PVT Ltd - (Dec 2018 - Jan 2020)"
             result="Colombo, Sri Lanka"
-            des="SchoolX - Online learning platform startup like BYJUS, Joined as Promotional and Content video editor and got promoted as a marketing manager within a couple of months and executed impactful campaigns, expanding SchoolX's reach and influence. Elected as a finalist of Disrupt Asia 2019"
+            des="SchoolX - Online learning platform startup like BYJUS, Joined as Promotional and Content Video editor and got promoted as a Sales manager and executed impactful campaigns, expanding SchoolX's reach and influence. Elected as a finalist of Disrupt Asia 2019"
           />
           <ResumeCard
             title="Founder"
             subTitle="WhyNot - (March 2019 - Present)"
             result="Freelance"
-            des="Why Not, a startup digital marketing agency, I orchestrated successful campaigns for both local and international clients, leveraging my strategic insights and creative prowess. My passion for design led me to freelance as a designer, crafting visually captivating content that resonates with audiences. "
+            des="Why Not, a startup digital marketing agency, I orchestrated successful campaigns for both local and international clients, My passion for design led me to freelance as a designer, crafting visually captivating content that resonates with audiences. "
           />
         </div>
         </div>
@@ -41,7 +41,7 @@ const Experience = () => {
             title="Publicity Committee"
             subTitle="IEEE- Student Branch of University of Moratuwa"
             result="IEEE"
-            des="Elected as Publicity Committee of IEEE Student Branch of University of Moratuwa in the Term of 23/24"
+            des="Elected as a member for the term of 23/24"
           />
           <ResumeCard
             title="Editor in Chief"
