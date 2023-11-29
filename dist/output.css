@@ -1749,6 +1749,10 @@ video {
     height: 450px;
   }
 
+  .lgl\:h-\[900px\]{
+    height: 900px;
+  }
+
   .lgl\:w-1\/2{
     width: 50%;
   }
@@ -1783,6 +1787,14 @@ video {
 
   .lgl\:w-\[450px\]{
     width: 450px;
+  }
+
+  .lgl\:w-\[7px\]{
+    width: 7px;
+  }
+
+  .lgl\:w-\[900px\]{
+    width: 900px;
   }
 
   .lgl\:grid-cols-4{
