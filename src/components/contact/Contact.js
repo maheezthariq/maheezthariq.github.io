@@ -46,20 +46,20 @@ const Contact = () => {
       setMessage("");
     }
     axios.post('http://localhost:5000/send', {
-    subject: subject,
-    email: email,
-    text: message
-  })
-  .then(response => {
-    if (response.data.status === 'success') {
-      setSuccessMsg('Your message has been sent successfully!');
-    } else {
-      setErrMsg('An error occurred while sending your message.');
-    }
-  })
-  .catch(error => {
-    setErrMsg('An error occurred while sending your message.');
-  });
+        subject: subject,
+        email: email,
+        text: message
+      })
+      .then(response => {
+        if (response.data.status === 'success') {
+          setSuccessMsg('Your message has been sent successfully!');
+        } else {
+          setErrMsg('An error occurred while sending your message.');
+        }
+      })
+      .catch(() => {
+        setErrMsg('An error occurred while sending your message.');
+      });
   };
 
 
