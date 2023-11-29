@@ -27,3 +27,8 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+
+.spinner {
+    @apply border-4 border-t-4 border-gray-200 h-12 w-12 rounded-full animate-spin;
+    border-top-color: #3498db;
+  }
