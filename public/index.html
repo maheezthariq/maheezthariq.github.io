@@ -28,8 +28,9 @@
   </head>
   <body>
     <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+    <div class="se-pre-con"></div>
     <div id="root">
-      <div class="spinner"></div>
+
       <script src="src/index.js"></script>
     </div>
     <!--
@@ -40,5 +41,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      $(window).on('load', function () {
+        $('.se-pre-con').fadeOut('slow');});
+      </script>
   </body>
 </html>
