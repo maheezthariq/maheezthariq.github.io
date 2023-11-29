@@ -20,13 +20,13 @@ const Experience = () => {
             title="Designer and Sales Manager"
             subTitle="SchoolX Lanka PVT Ltd - (Dec 2018 - Jan 2020)"
             result="Colombo, Sri Lanka"
-            des="SchoolX - Online learning platform startup like BYJUS, Joined as Promotional and Content video editor and got promoted as a marketing manager within a couple of months and executed impactful campaigns, expanding SchoolX's reach and influence. Our recognition as finalists at Disrupt Asia 2019 underscores our collective commitment to revolutionizing education."
+            des="SchoolX - Online learning platform startup like BYJUS, Joined as Promotional and Content video editor and got promoted as a marketing manager within a couple of months and executed impactful campaigns, expanding SchoolX's reach and influence. Elected as a finalist of Disrupt Asia 2019"
           />
           <ResumeCard
             title="Founder"
             subTitle="WhyNot - (March 2019 - Present)"
             result="Freelance"
-            des="As the founder of Why Not, a startup digital marketing agency, I orchestrated successful campaigns for both local and international clients, leveraging my strategic insights and creative prowess. My passion for design led me to freelance as a designer, crafting visually captivating content that resonates with audiences. "
+            des="Why Not, a startup digital marketing agency, I orchestrated successful campaigns for both local and international clients, leveraging my strategic insights and creative prowess. My passion for design led me to freelance as a designer, crafting visually captivating content that resonates with audiences. "
           />
         </div>
         </div>
