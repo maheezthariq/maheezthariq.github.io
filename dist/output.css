@@ -757,6 +757,10 @@ video {
   z-index: 50;
 }
 
+.z-20{
+  z-index: 20;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -992,6 +996,10 @@ video {
 
 .w-\[400px\]{
   width: 400px;
+}
+
+.w-\[500px\]{
+  width: 500px;
 }
 
 .max-w-6xl{
@@ -1737,6 +1745,10 @@ video {
     height: 400px;
   }
 
+  .lgl\:h-\[450px\]{
+    height: 450px;
+  }
+
   .lgl\:w-1\/2{
     width: 50%;
   }
@@ -1767,6 +1779,10 @@ video {
 
   .lgl\:w-\[400px\]{
     width: 400px;
+  }
+
+  .lgl\:w-\[450px\]{
+    width: 450px;
   }
 
   .lgl\:grid-cols-4{
