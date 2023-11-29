@@ -1753,6 +1753,10 @@ video {
     height: 900px;
   }
 
+  .lgl\:h-\[550px\]{
+    height: 550px;
+  }
+
   .lgl\:w-1\/2{
     width: 50%;
   }
