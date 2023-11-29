@@ -17,7 +17,7 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Designer and Sales Manager"
+            title="Designer & Sales Manager"
             subTitle="SchoolX Lanka PVT Ltd - (Dec 2018 - Jan 2020)"
             result="Colombo, Sri Lanka"
             des="SchoolX - Online learning platform startup like BYJUS, Joined as Promotional and Content video editor and got promoted as a marketing manager within a couple of months and executed impactful campaigns, expanding SchoolX's reach and influence. Elected as a finalist of Disrupt Asia 2019"
