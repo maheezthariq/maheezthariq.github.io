@@ -10,7 +10,7 @@ import { navLinksdata } from '../../constants';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 bg-opacity-90">
       <div>
         <img src={logo} alt="logo" />
       </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
               <div>
                 <img className="w-22" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                "Maheez Thariq - Portfolio"
+                Maheez Thariq - Portfolio
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
