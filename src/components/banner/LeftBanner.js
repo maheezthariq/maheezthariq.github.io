@@ -31,7 +31,7 @@ const LeftBanner = () => {
       </div>
      {/* Media */}
      <Media />
-      <a href="https://drive.google.com/file/d/1DlSh7MVSC4cw25adf8yMWTSZx4K09qvZ/view?usp=sharing" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full text-sm button-width-small text-center">
+      <a href="https://drive.google.com/file/d/1dAzyDSLV-4DQMQ40lih_Q0lKVGl1TnQm/view?usp=sharing" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full text-sm button-width-small text-center">
         Download CV
       </a>
     </div>
