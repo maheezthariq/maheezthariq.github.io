@@ -23,7 +23,7 @@ const Education = () => {
             title="Information Technology"
             subTitle="Institute of Technology, University of Moratuwa (2020 - Present)"
             //result="3.2 CGPA"
-            des="Studying IT related subjects like OOP, DBMS, OS, Testing, Web, OOAD, Cloud etc."
+            des="Studying IT related subjects like OOP, DBMS, OS, Testing, Web, OOAD, Cloud etc. Hands on experience in the Academic related projects (Mobile app, Web app, UI/UX, Testing)" 
           />
           <ResumeCardR
             title="Higher Secondary Education"
