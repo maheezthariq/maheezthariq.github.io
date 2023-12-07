@@ -59,8 +59,8 @@ const Education = () => {
             result="Online"
           />
           <ResumeCardW
-            title="Introduction to IOT"
-            subTitle="Cisco"
+            title="Software Testing"
+            subTitle="DelftX"
             result="Online"
           />
           <ResumeCardW
