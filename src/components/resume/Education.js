@@ -22,8 +22,8 @@ const Education = () => {
           <ResumeCard
             title="Information Technology"
             subTitle="Institute of Technology, University of Moratuwa (2020 - Present)"
-            result="3.2 CGPA"
-            des="Studying IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
+            //result="3.2 CGPA"
+            des="Studying IT related subjects like OOP, DBMS, OS, Testing, Web, OOAD, Cloud etc."
           />
           <ResumeCardR
             title="Higher Secondary Education"
