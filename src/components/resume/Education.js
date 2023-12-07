@@ -31,7 +31,7 @@ const Education = () => {
             // result="88.15%"
             des="I pursued my Advanced-Level education with a focus on Physics, Chemistry, and Combined Mathematics as my primary subjects."
           />
-          <ResumeCard
+          <ResumeCardR
             title="Secondary School Education"
             subTitle="BT/BC/Al-Hira Maha Vidyalaya (2010 - 2015)"
             result="8A 1B"
