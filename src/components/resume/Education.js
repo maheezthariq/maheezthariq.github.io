@@ -19,7 +19,7 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+          <ResumeCardR
             title="Information Technology"
             subTitle="Institute of Technology, University of Moratuwa (2020 - Present)"
             //result="3.2 CGPA"
