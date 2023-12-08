@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["IT Undergraduate", "SE Entuastic", "Developer", "Content Creator","UI/UX Designer", "Digital Marketer"],
+      words: ["IT Undergraduate", "SE Enthusiastic", "Developer", "Content Creator","UI/UX Designer", "Digital Marketer"],
       loop: true,
       typeSpeed: 30,
       deleteSpeed: 15,
@@ -18,7 +18,7 @@ const LeftBanner = () => {
           This is <span className="text-designColor capitalize">Maheez Thariq</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
